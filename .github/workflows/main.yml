@@ -16,4 +16,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build and Push Docker Images
       run: |
-       docker build . --file ./Dockerfile -t my-mongodb-repo:latest
+       docker build . --file /Dockerfile -t my-mongodb-repo:latest
